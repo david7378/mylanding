@@ -35,42 +35,35 @@ const ProjectsRow = ({ title, rowID }) => {
       description: "Controla tus finanzas",
       link: "https://reverent-ritchie-ee8a98.netlify.app/",
     },
+
     {
       id: 3,
-      name: "Salud",
-      image: healthImage,
-      description: "Busca articulos de salud",
-      link: "https://next-salud.vercel.app/",
+      name: "Centro de peliculas",
+      image: moviecenter,
+      description: "Buscador y organizador de peliculas",
+      link: "https://lustrous-cassata-889342.netlify.app/",
     },
     {
       id: 4,
-      name: "Fast Food",
-      image: fastfood,
-      description: "Buscador y ordena tu comida favorita",
-      link: "https://deft-kleicha-cbb823.netlify.app/",
+      name: "Gran Cine",
+      image: cinema,
+      description: "Buscador y filtra las mejores peliculas al estilo netflix.",
+      link: "https://beamish-bonbon-fa1399.netlify.app/",
     },
 
     {
       id: 5,
-      name: "Centro de peliculas",
-      image: moviecenter,
-      description: "Buscador y organizador de peliculas",
-      link: "https://bucolic-gaufre-4c70e0.netlify.app/",
-    },
-    {
-      id: 6,
-      name: "Gran Cine",
-      image: cinema,
-      description: "Buscador y filtra las mejores peliculas al estilo netflix.",
-      link: "https://bucolic-gaufre-4c70e0.netlify.app/",
-    },
-
-    {
-      id: 7,
       name: "Presupuestos",
       image: presup,
       description: "Realiza tus gatos a partir de un monto dado",
       link: "https://friendly-shannon-7b2dca.netlify.app/",
+    },
+    {
+      id: 6,
+      name: "Salud",
+      image: healthImage,
+      description: "Busca articulos de salud",
+      link: "https://next-salud.vercel.app/",
     },
   ];
 
