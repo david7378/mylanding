@@ -22,7 +22,7 @@ const Project = ({ project }) => {
         <img className="w-full h-auto block rounded-xl" src={image} alt="a" />
         <div className="absolute top-0 left-0 w-full h-full hover:bg-black/80 opacity-0 hover:opacity-100 text-white transition-colors ease-linear">
           <p className="white-space-normal text-xs md:text-base uppercase font-semibold flex justify-center items-center h-full text-center">
-            {truncateString(description, 30)}
+            {truncateString(description, 26)}
           </p>
         </div>
         <span className="justify-end text-stone-200 font-light">
