@@ -13,7 +13,7 @@ const AboutMe = () => {
         </h1>
         <div class="container px-5 py-8 mx-auto flex flex-wrap items-center border border-gray-700">
           <div class="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden hidden sm:block lg:block">
-            <div className="absolute w-full h-[880px] bg-gradient-to-r from-black/50"></div>
+            <div className="absolute h-[880px] bg-gradient-to-r from-black/50"></div>
             <img
               alt="feature"
               class="object-cover object-center h-[880px] w-full"
