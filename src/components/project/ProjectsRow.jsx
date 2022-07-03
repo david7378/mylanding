@@ -45,6 +45,13 @@ const ProjectsRow = ({ title, rowID }) => {
     },
     {
       id: 4,
+      name: "FastFood",
+      image: fastfood,
+      description: "Busca y ordena tu comida favorita",
+      link: "https://deft-kleicha-cbb823.netlify.app/",
+    },
+    {
+      id: 5,
       name: "Gran Cine",
       image: cinema,
       description: "Buscador y filtra las mejores peliculas al estilo netflix.",
@@ -52,14 +59,14 @@ const ProjectsRow = ({ title, rowID }) => {
     },
 
     {
-      id: 5,
+      id: 6,
       name: "Presupuestos",
       image: presup,
       description: "Realiza tus gatos a partir de un monto dado",
       link: "https://friendly-shannon-7b2dca.netlify.app/",
     },
     {
-      id: 6,
+      id: 7,
       name: "Salud",
       image: healthImage,
       description: "Busca articulos de salud",
